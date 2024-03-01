@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ContactUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_chevron_left_24dp"
+            android:id="@+id/contactback"
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact us"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"></TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Your Name"
+            android:textSize="15dp"
+            android:paddingLeft="35dp"
+            android:id="@+id/yourname"
+            android:background="@drawable/signintext"
+            ></EditText>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Phone Number"
+            android:textSize="15dp"
+            android:paddingLeft="35dp"
+            android:id="@+id/phnnumber"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/signintext"
+            ></EditText>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:textSize="15dp"
+            android:paddingLeft="35dp"
+            android:id="@+id/emailid"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/signintext"
+            ></EditText>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:hint="Message"
+            android:paddingBottom="120dp"
+            android:textSize="15dp"
+            android:paddingLeft="35dp"
+            android:id="@+id/message"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/signintext"
+            ></EditText>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:id="@+id/submit"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/signinbtn"
+            ></Button>
+        </LinearLayout>
+
+
+</FrameLayout>

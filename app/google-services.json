@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "206731857606",
+    "firebase_url": "https://dietplan-d8c38-default-rtdb.firebaseio.com",
+    "project_id": "dietplan-d8c38",
+    "storage_bucket": "dietplan-d8c38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206731857606:android:d3df1003e87ff0d28351c7",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206731857606-k0udj1jggfhu8k5e5s0eqqn015md5uvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1WwxF8scxEvI1e3aRNf6Xfc8Oydf8EtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206731857606-k0udj1jggfhu8k5e5s0eqqn015md5uvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

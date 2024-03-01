@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDeliveryAddressFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_chevron_left_24dp"
+            android:id="@+id/adddelivery"
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Delivery Address"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"></TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/egovernorate"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="50dp"
+            ></Spinner>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Area"
+            android:id="@+id/earea"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"
+            ></EditText>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Avenue"
+            android:id="@+id/eavenue"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            ></EditText>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Block"
+            android:id="@+id/eblock"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            ></EditText>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Street"
+            android:id="@+id/estreet"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            ></EditText>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Building"
+            android:id="@+id/ebuilding"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            ></EditText>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Floor"
+            android:id="@+id/efloor"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            ></EditText>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Appartment"
+            android:id="@+id/eappartment"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            ></EditText>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:id="@+id/address_submit"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/signinbtn"
+            ></Button>
+
+    </LinearLayout>
+
+
+</FrameLayout>

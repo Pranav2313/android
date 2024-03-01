@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Subscription_Preview_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_subs"
+            android:text="    Subscription Preview"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+            android:layout_marginTop="20dp"></TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:layout_width="30dp"
+           android:layout_height="15dp"
+           android:background="@drawable/coupon"
+           android:layout_marginTop="20dp"></ImageView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="  SUBSCRIPTION PREVIEW"
+           android:textColor="#444444"
+           android:textSize="10dp"
+           android:layout_marginTop="20dp"
+           android:gravity="center"
+           ></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Status:"
+           android:textColor="#444444"
+           android:textSize="10dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="100dp"
+           android:gravity="center"
+           ></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Completed"
+           android:textColor="#398D16"
+           android:textSize="10dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="10dp"
+           android:gravity="center"
+           ></TextView>
+
+   </LinearLayout>
+    <TextView
+        android:id="@+id/meal_plan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"></TextView>
+
+
+    <TextView
+        android:id="@+id/amount_per_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KWD 222.00 / Month"
+        android:textColor="#444444"
+        android:textSize="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"></TextView>
+
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:layout_width="370dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:thumb="@drawable/ic_person_pin_black_24dp"
+        android:thumbOffset="0dp"
+        android:progressTint="@color/colorPrimary"
+        android:maxHeight="8dp"
+        >
+
+    </androidx.appcompat.widget.AppCompatSeekBar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#444444"
+            android:textSize="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:id="@+id/end_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#444444"
+            android:textSize="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="280dp"
+            android:gravity="center"
+
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="120dp"
+        android:background="@drawable/layout_notify"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Address"
+            android:textSize="14dp"
+            android:textColor="#444444"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textColor="#444444"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method"
+        android:textSize="14dp"
+        android:textColor="#444444"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/visa"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"></ImageView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:background="@drawable/signinbtn"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Renew"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:id="@+id/btn_renew"
+
+
+        ></Button>
+
+
+</LinearLayout>
